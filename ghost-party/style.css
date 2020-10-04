@@ -38,7 +38,27 @@ body {
 .ghost {
     position: fixed;
     bottom: -1vh;
-    /* font-size: 8rem; */
     transform: translateY(0);
     animation: fall 0.5s linear forwards, fade;
+}
+
+.headerContent {
+    position: absolute;
+    top: 0;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    font-size: 2rem;
+}
+
+.headerTitle {
+    position: fixed;
+    left: 0;
+    padding: 30px;
+}
+
+.headerScore {
+    position: fixed;
+    padding: 30px;
 }
