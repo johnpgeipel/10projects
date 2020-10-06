@@ -43,7 +43,6 @@ const createGhost = () => {
         ghost.style.animationDuration = Math.random() * 2 + 1 + 's';
     } else if (scoreNum > 50) {
         ghost.style.animationDuration = Math.random() * 2 + 's';
-
     }
 
     setTimeout(() => {
